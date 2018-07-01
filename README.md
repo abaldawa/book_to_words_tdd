@@ -38,7 +38,7 @@ I have developed a node.js http server in TDD style which exposes an endpoint `h
 5. Go to "http://localhost:3000/words?url=http://www.loyalbooks.com/download/text/Railway-Children-by-E-Nesbit.txt" (to get all the words in the book)
 6. To run the tests on the console execute "npm test"
 
-NOTE: The endpoint accepts any http (Not 'https') endpoint and returns with the words count in it as a JSON response.
+NOTE: The endpoint accepts any http (Not 'https') url and returns with the words count in it as a JSON response.
 
 Tests for utility and REST endpoint is written.
 
