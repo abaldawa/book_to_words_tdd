@@ -12,6 +12,8 @@ I have developed a node.js http server in TDD style which exposes an endpoint `h
 } 
 ```
 
+#### The node.js server is written in latest ES 2017 syntax completely with async/await and latest node.js version (10.5) is used. Also, code is completely documented along with design/pattern decision description and method usage documentation
+
 ## File Structure
 1. ./server -> Contains all the node.js server code
 2. ./server/config/serverConfig.json -> contains http server configuration.
