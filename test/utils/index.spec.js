@@ -27,7 +27,7 @@ describe('Utils testing', function() {
             expect(utils.isPrimeNumber(19)).to.equal(true);
         });
 
-        it("should return false if the number is prime number", function() {
+        it("should return false if the number is not a prime number", function() {
             expect(utils.isPrimeNumber(91)).to.equal(false);
         });
     });
